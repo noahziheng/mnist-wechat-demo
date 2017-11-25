@@ -24,7 +24,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:noahziheng/mnist-wechat-demo.git',
       path: '/data/www/mnist-wechat-demo',
-      'post-deploy': 'cd server && yarn install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy': 'yarn install && pm2 reload ecosystem.config.js --env production'
     },
     dev: {
       user: 'root',
@@ -32,7 +32,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:noahziheng/mnist-wechat-demo.git',
       path: '/data/www/mnist-wechat-demo',
-      'post-deploy': 'cd server && yarn install && pm2 reload ecosystem.config.js --env dev',
+      'post-deploy': 'yarn install && pm2 reload ecosystem.config.js --env dev',
       env: {
         NODE_ENV: 'dev'
       }
