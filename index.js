@@ -6,8 +6,7 @@ const app = new Koa()
 
 const config = {
   token: 'noahwechattoken',
-  appid: 'wx42738ccb58ad7249',
-  encodingAESKey: 'gtGR775o8hab3T1vzciw00aX1zu0MyPyKfSavzzcBC0'
+  appid: 'wx5ef5f11fc7b49498'
 }
 
 app
