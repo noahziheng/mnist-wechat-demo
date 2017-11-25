@@ -7,7 +7,7 @@ module.exports = {
     // First application
     {
       name: 'mnist-wechat-demo',
-      script: 'index.js',
+      script: 'server.js',
       env_production: {
         NODE_ENV: 'production'
       }
