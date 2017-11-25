@@ -1,0 +1,14 @@
+{
+  "name": "mnist-wechat-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/noahziheng/mnist-wechat-demo",
+  "author": "Noah Gao",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "co-wechat": "^2.3.0",
+    "koa": "^2.4.1",
+    "standard": "^10.0.3"
+  }
+}
